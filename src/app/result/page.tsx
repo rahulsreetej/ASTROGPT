@@ -1,6 +1,7 @@
-// app/result/page.tsx
 import { Suspense } from 'react';
 import ResultPageClient from './ResultPageClient';
+
+export const dynamic = 'force-dynamic'; // ⬅️ This prevents static generation
 
 export default function ResultPage() {
   return (
